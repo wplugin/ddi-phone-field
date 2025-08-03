@@ -1,0 +1,60 @@
+{
+    "name": "wplugin/ddi-phone-field",
+    "description": "WordPress plugin that automatically adds DDI with country flags to phone fields in major forms: Elementor Pro, Contact Form 7, and WooCommerce.",
+    "type": "wordpress-plugin",
+    "keywords": [
+        "wordpress",
+        "plugin",
+        "phone",
+        "ddi",
+        "international",
+        "elementor",
+        "contact-form-7",
+        "woocommerce",
+        "country-code",
+        "phone-number"
+    ],
+    "homepage": "https://www.wplugin.com.br",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Wplugin",
+            "email": "contato@wplugin.com.br",
+            "homepage": "https://www.wplugin.com.br",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/wplugin/ddi-phone-field/issues",
+        "source": "https://github.com/wplugin/ddi-phone-field",
+        "docs": "https://www.wplugin.com.br/docs/ddi-phone-field"
+    },
+    "require": {
+        "php": ">=7.4",
+        "composer/installers": "^1.0 || ^2.0"
+    },
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^2.3",
+        "phpcompatibility/phpcompatibility-wp": "^2.1",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "scripts": {
+        "phpcs": "phpcs --standard=WordPress --extensions=php --ignore=*/vendor/*,*/node_modules/* .",
+        "phpcbf": "phpcbf --standard=WordPress --extensions=php --ignore=*/vendor/*,*/node_modules/* .",
+        "phpcs-check": "phpcs --standard=PHPCompatibilityWP --runtime-set testVersion 7.4- --extensions=php --ignore=*/vendor/*,*/node_modules/* ."
+    },
+    "extra": {
+        "installer-name": "ddi-phone-field"
+    },
+    "autoload": {
+        "psr-4": {
+            "DDIPhoneField\\": "includes/"
+        }
+    }
+}

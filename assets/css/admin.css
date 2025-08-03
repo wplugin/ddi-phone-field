@@ -1,0 +1,283 @@
+/**
+ * DDI Phone Field - Admin Styles
+ *
+ * @package DDI_Phone_Field
+ * @since 1.0.0
+ */
+
+/* Admin page specific styles */
+.ddiphonefield-admin-page {
+    max-width: 1200px;
+}
+
+/* Form table enhancements */
+.ddiphonefield-admin-page .form-table th {
+    width: 200px;
+    padding: 20px 10px 20px 0;
+    vertical-align: top;
+}
+
+.ddiphonefield-admin-page .form-table td {
+    padding: 15px 10px;
+}
+
+/* Module info boxes */
+.ddiphonefield-module-info {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+}
+
+.ddiphonefield-module-info h3 {
+    margin-top: 0;
+    color: #23282d;
+    font-size: 18px;
+}
+
+.ddiphonefield-module-info ul {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+.ddiphonefield-module-info li {
+    margin: 8px 0;
+    line-height: 1.6;
+}
+
+/* Status indicators */
+.ddiphonefield-status-active {
+    color: #46b450;
+    font-weight: 600;
+}
+
+.ddiphonefield-status-inactive {
+    color: #dc3232;
+    font-weight: 600;
+}
+
+.ddiphonefield-status-pending {
+    color: #ffb900;
+    font-weight: 600;
+}
+
+/* Country selector in admin */
+.ddiphonefield-admin-country-select {
+    width: 300px;
+    max-width: 100%;
+}
+
+/* Preview area */
+.ddiphonefield-preview {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.ddiphonefield-preview h4 {
+    margin-top: 0;
+    color: #23282d;
+}
+
+.ddiphonefield-preview-field {
+    display: flex;
+    align-items: stretch;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #fff;
+    max-width: 400px;
+    margin: 10px 0;
+}
+
+.ddiphonefield-preview-selector {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    background: #f8f9fa;
+    border-right: 1px solid #ddd;
+    min-width: 60px;
+}
+
+.ddiphonefield-preview-flag {
+    width: 20px;
+    height: 15px;
+    background: linear-gradient(135deg, #28a745, #20c997);
+    border-radius: 2px;
+    margin-right: 6px;
+}
+
+.ddiphonefield-preview-ddi {
+    font-size: 12px;
+    color: #666;
+}
+
+.ddiphonefield-preview-input {
+    flex: 1;
+    border: none;
+    padding: 8px 12px;
+    background: transparent;
+    color: #999;
+}
+
+/* Integration status */
+.ddiphonefield-integration-status {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+    padding: 10px;
+    background: #f0f0f1;
+    border-radius: 4px;
+}
+
+.ddiphonefield-integration-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.ddiphonefield-integration-icon.active {
+    background: #46b450;
+}
+
+.ddiphonefield-integration-icon.inactive {
+    background: #dc3232;
+}
+
+.ddiphonefield-integration-info {
+    flex: 1;
+}
+
+.ddiphonefield-integration-name {
+    font-weight: 600;
+    margin: 0 0 4px 0;
+}
+
+.ddiphonefield-integration-description {
+    margin: 0;
+    font-size: 13px;
+    color: #666;
+}
+
+/* Responsive admin styles */
+@media (max-width: 782px) {
+    .ddiphonefield-admin-page .form-table th {
+        width: auto;
+        padding: 10px 0;
+    }
+    
+    .ddiphonefield-preview-field {
+        max-width: 100%;
+    }
+    
+    .ddiphonefield-integration-status {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+}
+
+/* Help text styling */
+.ddiphonefield-help-text {
+    font-size: 13px;
+    color: #666;
+    margin-top: 8px;
+    line-height: 1.5;
+}
+
+/* Notice enhancements */
+.notice.ddiphonefield-notice {
+    border-left-width: 4px;
+    padding: 12px;
+}
+
+.notice.ddiphonefield-notice p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Button styling */
+.ddiphonefield-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border: 1px solid #0073aa;
+    background: #0073aa;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 13px;
+    transition: all 0.2s ease;
+}
+
+.ddiphonefield-button:hover {
+    background: #005a87;
+    border-color: #005a87;
+    color: #fff;
+}
+
+.ddiphonefield-button.secondary {
+    background: transparent;
+    color: #0073aa;
+}
+
+.ddiphonefield-button.secondary:hover {
+    background: #f0f8ff;
+}
+
+/* Loading states in admin */
+.ddiphonefield-loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+/* Tabs styling */
+.ddiphonefield-tabs {
+    border-bottom: 1px solid #ccd0d4;
+    margin: 20px 0;
+}
+
+.ddiphonefield-tab-nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ddiphonefield-tab-nav li {
+    margin: 0;
+}
+
+.ddiphonefield-tab-nav a {
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #666;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.ddiphonefield-tab-nav a:hover {
+    color: #0073aa;
+}
+
+.ddiphonefield-tab-nav a.active {
+    color: #0073aa;
+    border-bottom-color: #0073aa;
+}
+
+.ddiphonefield-tab-content {
+    margin: 20px 0;
+}

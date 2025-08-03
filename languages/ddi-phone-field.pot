@@ -1,0 +1,115 @@
+# DDI Phone Field Translation Template
+# Copyright (C) 2024 Wplugin
+# This file is distributed under the same license as the DDI Phone Field package.
+msgid ""
+msgstr ""
+"Project-Id-Version: DDI Phone Field 1.0.0\n"
+"Report-Msgid-Bugs-To: https://www.wplugin.com.br\n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: includes/admin/class-admin-menu.php:35
+msgid "DDI Phone Field"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:60
+msgid "País Padrão"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:69
+msgid "Selecione o país que será exibido por padrão nos campos de telefone."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:75
+msgid "Exibir Código DDI"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:78
+msgid "Exibir o código DDI junto com a bandeira"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:79
+msgid "Quando ativado, mostra o código do país (ex: +55) ao lado da bandeira."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:85
+msgid "Posição do DDI"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:88
+msgid "Esquerda"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:89
+msgid "Direita"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:91
+msgid "Escolha se o seletor de país ficará à esquerda ou direita do campo de telefone."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:98
+msgid "Módulo 1 - Integração Básica com Elementor Pro"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:99
+msgid "Esta versão inclui apenas a integração básica com o Elementor Pro:"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:101
+msgid "Detecção automática de campos de telefone no Elementor Pro"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:102
+msgid "Inserção de dropdown com bandeiras de países + DDI"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:103
+msgid "Preservação do placeholder original"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:104
+msgid "Validação compatível com regex do Elementor Pro"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:105
+msgid "Configuração padrão: apenas bandeira (código DDI opcional via admin)"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:109
+msgid "Informação:"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:109
+msgid "O campo permanece limpo para digitação livre. Apenas bandeira + DDI são adicionados, com zero interferência na digitação do usuário."
+msgstr ""
+
+#: includes/integrations/class-elementor.php:93
+msgid "Telefone (com DDI)"
+msgstr ""
+
+#: includes/core/class-helper.php:31
+msgid "Andorra"
+msgstr ""
+
+#: includes/core/class-helper.php:32
+msgid "Emirados Árabes Unidos"
+msgstr ""
+
+#: includes/core/class-helper.php:46
+msgid "Brasil"
+msgstr ""
+
+#: includes/core/class-helper.php:73
+msgid "Estados Unidos"
+msgstr ""
+
+#: includes/core/class-helper.php:74
+msgid "Reino Unido"
+msgstr ""
