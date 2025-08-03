@@ -1,0 +1,290 @@
+/**
+ * DDI Phone Field - Flag Sprites
+ *
+ * @package DDI_Phone_Field
+ * @since 1.0.0
+ */
+
+/* Base flag styling */
+.ddiphonefield-flag {
+    display: inline-block;
+    width: 24px;
+    height: 18px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Individual country flags */
+.ddiphonefield-flag.flag-ad { background-image: url('../images/flags/ad.png'); }
+.ddiphonefield-flag.flag-ae { background-image: url('../images/flags/ae.png'); }
+.ddiphonefield-flag.flag-af { background-image: url('../images/flags/af.png'); }
+.ddiphonefield-flag.flag-ag { background-image: url('../images/flags/ag.png'); }
+.ddiphonefield-flag.flag-ai { background-image: url('../images/flags/ai.png'); }
+.ddiphonefield-flag.flag-al { background-image: url('../images/flags/al.png'); }
+.ddiphonefield-flag.flag-am { background-image: url('../images/flags/am.png'); }
+.ddiphonefield-flag.flag-ao { background-image: url('../images/flags/ao.png'); }
+.ddiphonefield-flag.flag-ar { background-image: url('../images/flags/ar.png'); }
+.ddiphonefield-flag.flag-as { background-image: url('../images/flags/as.png'); }
+.ddiphonefield-flag.flag-at { background-image: url('../images/flags/at.png'); }
+.ddiphonefield-flag.flag-au { background-image: url('../images/flags/au.png'); }
+.ddiphonefield-flag.flag-aw { background-image: url('../images/flags/aw.png'); }
+.ddiphonefield-flag.flag-az { background-image: url('../images/flags/az.png'); }
+.ddiphonefield-flag.flag-ba { background-image: url('../images/flags/ba.png'); }
+.ddiphonefield-flag.flag-bb { background-image: url('../images/flags/bb.png'); }
+.ddiphonefield-flag.flag-bd { background-image: url('../images/flags/bd.png'); }
+.ddiphonefield-flag.flag-be { background-image: url('../images/flags/be.png'); }
+.ddiphonefield-flag.flag-bf { background-image: url('../images/flags/bf.png'); }
+.ddiphonefield-flag.flag-bg { background-image: url('../images/flags/bg.png'); }
+.ddiphonefield-flag.flag-bh { background-image: url('../images/flags/bh.png'); }
+.ddiphonefield-flag.flag-bi { background-image: url('../images/flags/bi.png'); }
+.ddiphonefield-flag.flag-bj { background-image: url('../images/flags/bj.png'); }
+.ddiphonefield-flag.flag-bm { background-image: url('../images/flags/bm.png'); }
+.ddiphonefield-flag.flag-bn { background-image: url('../images/flags/bn.png'); }
+.ddiphonefield-flag.flag-bo { background-image: url('../images/flags/bo.png'); }
+.ddiphonefield-flag.flag-br { background-image: url('../images/flags/br.png'); }
+.ddiphonefield-flag.flag-bs { background-image: url('../images/flags/bs.png'); }
+.ddiphonefield-flag.flag-bt { background-image: url('../images/flags/bt.png'); }
+.ddiphonefield-flag.flag-bw { background-image: url('../images/flags/bw.png'); }
+.ddiphonefield-flag.flag-by { background-image: url('../images/flags/by.png'); }
+.ddiphonefield-flag.flag-bz { background-image: url('../images/flags/bz.png'); }
+.ddiphonefield-flag.flag-ca { background-image: url('../images/flags/ca.png'); }
+.ddiphonefield-flag.flag-cd { background-image: url('../images/flags/cd.png'); }
+.ddiphonefield-flag.flag-cf { background-image: url('../images/flags/cf.png'); }
+.ddiphonefield-flag.flag-cg { background-image: url('../images/flags/cg.png'); }
+.ddiphonefield-flag.flag-ch { background-image: url('../images/flags/ch.png'); }
+.ddiphonefield-flag.flag-ci { background-image: url('../images/flags/ci.png'); }
+.ddiphonefield-flag.flag-ck { background-image: url('../images/flags/ck.png'); }
+.ddiphonefield-flag.flag-cl { background-image: url('../images/flags/cl.png'); }
+.ddiphonefield-flag.flag-cm { background-image: url('../images/flags/cm.png'); }
+.ddiphonefield-flag.flag-cn { background-image: url('../images/flags/cn.png'); }
+.ddiphonefield-flag.flag-co { background-image: url('../images/flags/co.png'); }
+.ddiphonefield-flag.flag-cr { background-image: url('../images/flags/cr.png'); }
+.ddiphonefield-flag.flag-cu { background-image: url('../images/flags/cu.png'); }
+.ddiphonefield-flag.flag-cv { background-image: url('../images/flags/cv.png'); }
+.ddiphonefield-flag.flag-cy { background-image: url('../images/flags/cy.png'); }
+.ddiphonefield-flag.flag-cz { background-image: url('../images/flags/cz.png'); }
+.ddiphonefield-flag.flag-de { background-image: url('../images/flags/de.png'); }
+.ddiphonefield-flag.flag-dj { background-image: url('../images/flags/dj.png'); }
+.ddiphonefield-flag.flag-dk { background-image: url('../images/flags/dk.png'); }
+.ddiphonefield-flag.flag-dm { background-image: url('../images/flags/dm.png'); }
+.ddiphonefield-flag.flag-do { background-image: url('../images/flags/do.png'); }
+.ddiphonefield-flag.flag-dz { background-image: url('../images/flags/dz.png'); }
+.ddiphonefield-flag.flag-ec { background-image: url('../images/flags/ec.png'); }
+.ddiphonefield-flag.flag-ee { background-image: url('../images/flags/ee.png'); }
+.ddiphonefield-flag.flag-eg { background-image: url('../images/flags/eg.png'); }
+.ddiphonefield-flag.flag-er { background-image: url('../images/flags/er.png'); }
+.ddiphonefield-flag.flag-es { background-image: url('../images/flags/es.png'); }
+.ddiphonefield-flag.flag-et { background-image: url('../images/flags/et.png'); }
+.ddiphonefield-flag.flag-fi { background-image: url('../images/flags/fi.png'); }
+.ddiphonefield-flag.flag-fj { background-image: url('../images/flags/fj.png'); }
+.ddiphonefield-flag.flag-fk { background-image: url('../images/flags/fk.png'); }
+.ddiphonefield-flag.flag-fm { background-image: url('../images/flags/fm.png'); }
+.ddiphonefield-flag.flag-fo { background-image: url('../images/flags/fo.png'); }
+.ddiphonefield-flag.flag-fr { background-image: url('../images/flags/fr.png'); }
+.ddiphonefield-flag.flag-ga { background-image: url('../images/flags/ga.png'); }
+.ddiphonefield-flag.flag-gb { background-image: url('../images/flags/gb.png'); }
+.ddiphonefield-flag.flag-gd { background-image: url('../images/flags/gd.png'); }
+.ddiphonefield-flag.flag-ge { background-image: url('../images/flags/ge.png'); }
+.ddiphonefield-flag.flag-gf { background-image: url('../images/flags/gf.png'); }
+.ddiphonefield-flag.flag-gh { background-image: url('../images/flags/gh.png'); }
+.ddiphonefield-flag.flag-gi { background-image: url('../images/flags/gi.png'); }
+.ddiphonefield-flag.flag-gl { background-image: url('../images/flags/gl.png'); }
+.ddiphonefield-flag.flag-gm { background-image: url('../images/flags/gm.png'); }
+.ddiphonefield-flag.flag-gn { background-image: url('../images/flags/gn.png'); }
+.ddiphonefield-flag.flag-gp { background-image: url('../images/flags/gp.png'); }
+.ddiphonefield-flag.flag-gq { background-image: url('../images/flags/gq.png'); }
+.ddiphonefield-flag.flag-gr { background-image: url('../images/flags/gr.png'); }
+.ddiphonefield-flag.flag-gt { background-image: url('../images/flags/gt.png'); }
+.ddiphonefield-flag.flag-gu { background-image: url('../images/flags/gu.png'); }
+.ddiphonefield-flag.flag-gw { background-image: url('../images/flags/gw.png'); }
+.ddiphonefield-flag.flag-gy { background-image: url('../images/flags/gy.png'); }
+.ddiphonefield-flag.flag-hk { background-image: url('../images/flags/hk.png'); }
+.ddiphonefield-flag.flag-hn { background-image: url('../images/flags/hn.png'); }
+.ddiphonefield-flag.flag-hr { background-image: url('../images/flags/hr.png'); }
+.ddiphonefield-flag.flag-ht { background-image: url('../images/flags/ht.png'); }
+.ddiphonefield-flag.flag-hu { background-image: url('../images/flags/hu.png'); }
+.ddiphonefield-flag.flag-id { background-image: url('../images/flags/id.png'); }
+.ddiphonefield-flag.flag-ie { background-image: url('../images/flags/ie.png'); }
+.ddiphonefield-flag.flag-il { background-image: url('../images/flags/il.png'); }
+.ddiphonefield-flag.flag-in { background-image: url('../images/flags/in.png'); }
+.ddiphonefield-flag.flag-io { background-image: url('../images/flags/io.png'); }
+.ddiphonefield-flag.flag-iq { background-image: url('../images/flags/iq.png'); }
+.ddiphonefield-flag.flag-ir { background-image: url('../images/flags/ir.png'); }
+.ddiphonefield-flag.flag-is { background-image: url('../images/flags/is.png'); }
+.ddiphonefield-flag.flag-it { background-image: url('../images/flags/it.png'); }
+.ddiphonefield-flag.flag-jm { background-image: url('../images/flags/jm.png'); }
+.ddiphonefield-flag.flag-jo { background-image: url('../images/flags/jo.png'); }
+.ddiphonefield-flag.flag-jp { background-image: url('../images/flags/jp.png'); }
+.ddiphonefield-flag.flag-ke { background-image: url('../images/flags/ke.png'); }
+.ddiphonefield-flag.flag-kg { background-image: url('../images/flags/kg.png'); }
+.ddiphonefield-flag.flag-kh { background-image: url('../images/flags/kh.png'); }
+.ddiphonefield-flag.flag-ki { background-image: url('../images/flags/ki.png'); }
+.ddiphonefield-flag.flag-km { background-image: url('../images/flags/km.png'); }
+.ddiphonefield-flag.flag-kn { background-image: url('../images/flags/kn.png'); }
+.ddiphonefield-flag.flag-kp { background-image: url('../images/flags/kp.png'); }
+.ddiphonefield-flag.flag-kr { background-image: url('../images/flags/kr.png'); }
+.ddiphonefield-flag.flag-kw { background-image: url('../images/flags/kw.png'); }
+.ddiphonefield-flag.flag-ky { background-image: url('../images/flags/ky.png'); }
+.ddiphonefield-flag.flag-kz { background-image: url('../images/flags/kz.png'); }
+.ddiphonefield-flag.flag-la { background-image: url('../images/flags/la.png'); }
+.ddiphonefield-flag.flag-lb { background-image: url('../images/flags/lb.png'); }
+.ddiphonefield-flag.flag-lc { background-image: url('../images/flags/lc.png'); }
+.ddiphonefield-flag.flag-li { background-image: url('../images/flags/li.png'); }
+.ddiphonefield-flag.flag-lk { background-image: url('../images/flags/lk.png'); }
+.ddiphonefield-flag.flag-lr { background-image: url('../images/flags/lr.png'); }
+.ddiphonefield-flag.flag-ls { background-image: url('../images/flags/ls.png'); }
+.ddiphonefield-flag.flag-lt { background-image: url('../images/flags/lt.png'); }
+.ddiphonefield-flag.flag-lu { background-image: url('../images/flags/lu.png'); }
+.ddiphonefield-flag.flag-lv { background-image: url('../images/flags/lv.png'); }
+.ddiphonefield-flag.flag-ly { background-image: url('../images/flags/ly.png'); }
+.ddiphonefield-flag.flag-ma { background-image: url('../images/flags/ma.png'); }
+.ddiphonefield-flag.flag-mc { background-image: url('../images/flags/mc.png'); }
+.ddiphonefield-flag.flag-md { background-image: url('../images/flags/md.png'); }
+.ddiphonefield-flag.flag-me { background-image: url('../images/flags/me.png'); }
+.ddiphonefield-flag.flag-mg { background-image: url('../images/flags/mg.png'); }
+.ddiphonefield-flag.flag-mh { background-image: url('../images/flags/mh.png'); }
+.ddiphonefield-flag.flag-mk { background-image: url('../images/flags/mk.png'); }
+.ddiphonefield-flag.flag-ml { background-image: url('../images/flags/ml.png'); }
+.ddiphonefield-flag.flag-mm { background-image: url('../images/flags/mm.png'); }
+.ddiphonefield-flag.flag-mn { background-image: url('../images/flags/mn.png'); }
+.ddiphonefield-flag.flag-mo { background-image: url('../images/flags/mo.png'); }
+.ddiphonefield-flag.flag-mp { background-image: url('../images/flags/mp.png'); }
+.ddiphonefield-flag.flag-mq { background-image: url('../images/flags/mq.png'); }
+.ddiphonefield-flag.flag-mr { background-image: url('../images/flags/mr.png'); }
+.ddiphonefield-flag.flag-ms { background-image: url('../images/flags/ms.png'); }
+.ddiphonefield-flag.flag-mt { background-image: url('../images/flags/mt.png'); }
+.ddiphonefield-flag.flag-mu { background-image: url('../images/flags/mu.png'); }
+.ddiphonefield-flag.flag-mv { background-image: url('../images/flags/mv.png'); }
+.ddiphonefield-flag.flag-mw { background-image: url('../images/flags/mw.png'); }
+.ddiphonefield-flag.flag-mx { background-image: url('../images/flags/mx.png'); }
+.ddiphonefield-flag.flag-my { background-image: url('../images/flags/my.png'); }
+.ddiphonefield-flag.flag-mz { background-image: url('../images/flags/mz.png'); }
+.ddiphonefield-flag.flag-na { background-image: url('../images/flags/na.png'); }
+.ddiphonefield-flag.flag-nc { background-image: url('../images/flags/nc.png'); }
+.ddiphonefield-flag.flag-ne { background-image: url('../images/flags/ne.png'); }
+.ddiphonefield-flag.flag-nf { background-image: url('../images/flags/nf.png'); }
+.ddiphonefield-flag.flag-ng { background-image: url('../images/flags/ng.png'); }
+.ddiphonefield-flag.flag-ni { background-image: url('../images/flags/ni.png'); }
+.ddiphonefield-flag.flag-nl { background-image: url('../images/flags/nl.png'); }
+.ddiphonefield-flag.flag-no { background-image: url('../images/flags/no.png'); }
+.ddiphonefield-flag.flag-np { background-image: url('../images/flags/np.png'); }
+.ddiphonefield-flag.flag-nr { background-image: url('../images/flags/nr.png'); }
+.ddiphonefield-flag.flag-nu { background-image: url('../images/flags/nu.png'); }
+.ddiphonefield-flag.flag-nz { background-image: url('../images/flags/nz.png'); }
+.ddiphonefield-flag.flag-om { background-image: url('../images/flags/om.png'); }
+.ddiphonefield-flag.flag-pa { background-image: url('../images/flags/pa.png'); }
+.ddiphonefield-flag.flag-pe { background-image: url('../images/flags/pe.png'); }
+.ddiphonefield-flag.flag-pf { background-image: url('../images/flags/pf.png'); }
+.ddiphonefield-flag.flag-pg { background-image: url('../images/flags/pg.png'); }
+.ddiphonefield-flag.flag-ph { background-image: url('../images/flags/ph.png'); }
+.ddiphonefield-flag.flag-pk { background-image: url('../images/flags/pk.png'); }
+.ddiphonefield-flag.flag-pl { background-image: url('../images/flags/pl.png'); }
+.ddiphonefield-flag.flag-pm { background-image: url('../images/flags/pm.png'); }
+.ddiphonefield-flag.flag-pn { background-image: url('../images/flags/pn.png'); }
+.ddiphonefield-flag.flag-pr { background-image: url('../images/flags/pr.png'); }
+.ddiphonefield-flag.flag-ps { background-image: url('../images/flags/ps.png'); }
+.ddiphonefield-flag.flag-pt { background-image: url('../images/flags/pt.png'); }
+.ddiphonefield-flag.flag-pw { background-image: url('../images/flags/pw.png'); }
+.ddiphonefield-flag.flag-py { background-image: url('../images/flags/py.png'); }
+.ddiphonefield-flag.flag-qa { background-image: url('../images/flags/qa.png'); }
+.ddiphonefield-flag.flag-re { background-image: url('../images/flags/re.png'); }
+.ddiphonefield-flag.flag-ro { background-image: url('../images/flags/ro.png'); }
+.ddiphonefield-flag.flag-rs { background-image: url('../images/flags/rs.png'); }
+.ddiphonefield-flag.flag-ru { background-image: url('../images/flags/ru.png'); }
+.ddiphonefield-flag.flag-rw { background-image: url('../images/flags/rw.png'); }
+.ddiphonefield-flag.flag-sa { background-image: url('../images/flags/sa.png'); }
+.ddiphonefield-flag.flag-sb { background-image: url('../images/flags/sb.png'); }
+.ddiphonefield-flag.flag-sc { background-image: url('../images/flags/sc.png'); }
+.ddiphonefield-flag.flag-sd { background-image: url('../images/flags/sd.png'); }
+.ddiphonefield-flag.flag-se { background-image: url('../images/flags/se.png'); }
+.ddiphonefield-flag.flag-sg { background-image: url('../images/flags/sg.png'); }
+.ddiphonefield-flag.flag-sh { background-image: url('../images/flags/sh.png'); }
+.ddiphonefield-flag.flag-si { background-image: url('../images/flags/si.png'); }
+.ddiphonefield-flag.flag-sj { background-image: url('../images/flags/sj.png'); }
+.ddiphonefield-flag.flag-sk { background-image: url('../images/flags/sk.png'); }
+.ddiphonefield-flag.flag-sl { background-image: url('../images/flags/sl.png'); }
+.ddiphonefield-flag.flag-sm { background-image: url('../images/flags/sm.png'); }
+.ddiphonefield-flag.flag-sn { background-image: url('../images/flags/sn.png'); }
+.ddiphonefield-flag.flag-so { background-image: url('../images/flags/so.png'); }
+.ddiphonefield-flag.flag-sr { background-image: url('../images/flags/sr.png'); }
+.ddiphonefield-flag.flag-ss { background-image: url('../images/flags/ss.png'); }
+.ddiphonefield-flag.flag-st { background-image: url('../images/flags/st.png'); }
+.ddiphonefield-flag.flag-sv { background-image: url('../images/flags/sv.png'); }
+.ddiphonefield-flag.flag-sx { background-image: url('../images/flags/sx.png'); }
+.ddiphonefield-flag.flag-sy { background-image: url('../images/flags/sy.png'); }
+.ddiphonefield-flag.flag-sz { background-image: url('../images/flags/sz.png'); }
+.ddiphonefield-flag.flag-tc { background-image: url('../images/flags/tc.png'); }
+.ddiphonefield-flag.flag-td { background-image: url('../images/flags/td.png'); }
+.ddiphonefield-flag.flag-tf { background-image: url('../images/flags/tf.png'); }
+.ddiphonefield-flag.flag-tg { background-image: url('../images/flags/tg.png'); }
+.ddiphonefield-flag.flag-th { background-image: url('../images/flags/th.png'); }
+.ddiphonefield-flag.flag-tj { background-image: url('../images/flags/tj.png'); }
+.ddiphonefield-flag.flag-tk { background-image: url('../images/flags/tk.png'); }
+.ddiphonefield-flag.flag-tl { background-image: url('../images/flags/tl.png'); }
+.ddiphonefield-flag.flag-tm { background-image: url('../images/flags/tm.png'); }
+.ddiphonefield-flag.flag-tn { background-image: url('../images/flags/tn.png'); }
+.ddiphonefield-flag.flag-to { background-image: url('../images/flags/to.png'); }
+.ddiphonefield-flag.flag-tr { background-image: url('../images/flags/tr.png'); }
+.ddiphonefield-flag.flag-tt { background-image: url('../images/flags/tt.png'); }
+.ddiphonefield-flag.flag-tv { background-image: url('../images/flags/tv.png'); }
+.ddiphonefield-flag.flag-tw { background-image: url('../images/flags/tw.png'); }
+.ddiphonefield-flag.flag-tz { background-image: url('../images/flags/tz.png'); }
+.ddiphonefield-flag.flag-ua { background-image: url('../images/flags/ua.png'); }
+.ddiphonefield-flag.flag-ug { background-image: url('../images/flags/ug.png'); }
+.ddiphonefield-flag.flag-um { background-image: url('../images/flags/um.png'); }
+.ddiphonefield-flag.flag-us { background-image: url('../images/flags/us.png'); }
+.ddiphonefield-flag.flag-uy { background-image: url('../images/flags/uy.png'); }
+.ddiphonefield-flag.flag-uz { background-image: url('../images/flags/uz.png'); }
+.ddiphonefield-flag.flag-va { background-image: url('../images/flags/va.png'); }
+.ddiphonefield-flag.flag-vc { background-image: url('../images/flags/vc.png'); }
+.ddiphonefield-flag.flag-ve { background-image: url('../images/flags/ve.png'); }
+.ddiphonefield-flag.flag-vg { background-image: url('../images/flags/vg.png'); }
+.ddiphonefield-flag.flag-vi { background-image: url('../images/flags/vi.png'); }
+.ddiphonefield-flag.flag-vn { background-image: url('../images/flags/vn.png'); }
+.ddiphonefield-flag.flag-vu { background-image: url('../images/flags/vu.png'); }
+.ddiphonefield-flag.flag-wf { background-image: url('../images/flags/wf.png'); }
+.ddiphonefield-flag.flag-ws { background-image: url('../images/flags/ws.png'); }
+.ddiphonefield-flag.flag-ye { background-image: url('../images/flags/ye.png'); }
+.ddiphonefield-flag.flag-yt { background-image: url('../images/flags/yt.png'); }
+.ddiphonefield-flag.flag-za { background-image: url('../images/flags/za.png'); }
+.ddiphonefield-flag.flag-zm { background-image: url('../images/flags/zm.png'); }
+.ddiphonefield-flag.flag-zw { background-image: url('../images/flags/zw.png'); }
+
+/* Fallback flag (if country not found) */
+.ddiphonefield-flag.flag-default {
+    background: linear-gradient(135deg, #ccc, #999);
+    position: relative;
+}
+
+.ddiphonefield-flag.flag-default::after {
+    content: '?';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+/* High DPI support */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .ddiphonefield-flag {
+        background-size: 24px 18px;
+    }
+}
+
+/* Loading state for flags */
+.ddiphonefield-flag.loading {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: ddiphonefield-flag-loading 1.5s infinite;
+}
+
+@keyframes ddiphonefield-flag-loading {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}

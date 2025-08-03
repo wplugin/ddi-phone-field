@@ -1,0 +1,56 @@
+{
+  "name": "ddi-phone-field",
+  "version": "1.0.0",
+  "description": "WordPress plugin that automatically adds DDI with country flags to phone fields in major forms",
+  "main": "assets/js/frontend.js",
+  "scripts": {
+    "build": "npm run build:css && npm run build:js",
+    "build:css": "npx postcss assets/css/frontend.css -o assets/css/frontend.min.css --map",
+    "build:js": "npx terser assets/js/frontend.js -o assets/js/frontend.min.js --source-map",
+    "watch": "npm run watch:css & npm run watch:js",
+    "watch:css": "npx postcss assets/css/frontend.css -o assets/css/frontend.min.css --map --watch",
+    "watch:js": "npx terser assets/js/frontend.js -o assets/js/frontend.min.js --source-map --watch",
+    "lint": "npm run lint:js && npm run lint:css",
+    "lint:js": "npx eslint assets/js/",
+    "lint:css": "npx stylelint assets/css/",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "phone",
+    "ddi",
+    "international",
+    "elementor",
+    "contact-form-7",
+    "woocommerce"
+  ],
+  "author": "Wplugin <contato@wplugin.com.br>",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.wplugin.com.br",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wplugin/ddi-phone-field.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wplugin/ddi-phone-field/issues"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.32",
+    "postcss-cli": "^11.0.0",
+    "postcss-preset-env": "^9.3.0",
+    "terser": "^5.26.0",
+    "eslint": "^8.56.0",
+    "stylelint": "^16.1.0",
+    "stylelint-config-standard": "^36.0.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "ie >= 11"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}

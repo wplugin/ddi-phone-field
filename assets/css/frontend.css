@@ -1,0 +1,297 @@
+/**
+ * DDI Phone Field - Frontend Styles
+ *
+ * @package DDI_Phone_Field
+ * @since 1.0.0
+ */
+
+/* Phone field container */
+.ddiphonefield-container {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #fff;
+    transition: border-color 0.3s ease;
+}
+
+.ddiphonefield-container:focus-within {
+    border-color: #007cba;
+    box-shadow: 0 0 0 1px #007cba;
+}
+
+/* Country selector */
+.ddiphonefield-country-selector {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    background: #f8f9fa;
+    border-right: 1px solid #ddd;
+    cursor: pointer;
+    min-width: 60px;
+    transition: background-color 0.3s ease;
+}
+
+.ddiphonefield-container.position-right .ddiphonefield-country-selector {
+    border-right: none;
+    border-left: 1px solid #ddd;
+    order: 2;
+}
+
+.ddiphonefield-country-selector:hover {
+    background: #e9ecef;
+}
+
+/* Flag */
+.ddiphonefield-flag {
+    width: 24px;
+    height: 18px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 6px;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.ddiphonefield-container.hide-ddi-code .ddiphonefield-flag {
+    margin-right: 0;
+}
+
+/* DDI code */
+.ddiphonefield-ddi-code {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    white-space: nowrap;
+}
+
+/* Dropdown arrow */
+.ddiphonefield-arrow {
+    margin-left: 6px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #666;
+    transition: transform 0.3s ease;
+}
+
+.ddiphonefield-country-selector.open .ddiphonefield-arrow {
+    transform: rotate(180deg);
+}
+
+/* Phone input */
+.ddiphonefield-tel-input {
+    flex: 1;
+    border: none !important;
+    outline: none !important;
+    padding: 12px 16px !important;
+    font-size: 14px;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.ddiphonefield-tel-input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Country dropdown */
+.ddiphonefield-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    display: none;
+}
+
+.ddiphonefield-dropdown.open {
+    display: block;
+}
+
+/* Dropdown item */
+.ddiphonefield-dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.ddiphonefield-dropdown-item:last-child {
+    border-bottom: none;
+}
+
+.ddiphonefield-dropdown-item:hover,
+.ddiphonefield-dropdown-item.highlighted {
+    background: #f8f9fa;
+}
+
+.ddiphonefield-dropdown-item.selected {
+    background: #e3f2fd;
+    color: #1976d2;
+}
+
+.ddiphonefield-dropdown-item .ddiphonefield-flag {
+    margin-right: 12px;
+}
+
+.ddiphonefield-dropdown-item .ddiphonefield-country-name {
+    flex: 1;
+    font-size: 14px;
+}
+
+.ddiphonefield-dropdown-item .ddiphonefield-ddi-code {
+    font-size: 13px;
+    color: #666;
+    margin-left: 8px;
+}
+
+/* Search input */
+.ddiphonefield-search {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 12px;
+    font-size: 14px;
+    outline: none;
+    background: #f8f9fa;
+}
+
+.ddiphonefield-search:focus {
+    border-bottom-color: #007cba;
+    background: #fff;
+}
+
+/* No results */
+.ddiphonefield-no-results {
+    padding: 12px;
+    text-align: center;
+    color: #666;
+    font-style: italic;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .ddiphonefield-container {
+        flex-direction: column;
+    }
+    
+    .ddiphonefield-country-selector {
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+        justify-content: center;
+    }
+    
+    .ddiphonefield-container.position-right .ddiphonefield-country-selector {
+        border-left: none;
+        border-top: 1px solid #ddd;
+        border-bottom: none;
+        order: 2;
+    }
+    
+    .ddiphonefield-dropdown {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        max-width: 400px;
+        max-height: 60vh;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+    }
+}
+
+/* Elementor Pro specific styles */
+.elementor-field-group .ddiphonefield-container {
+    width: 100%;
+}
+
+.elementor-form .ddiphonefield-tel-input {
+    width: 100% !important;
+}
+
+/* Loading state */
+.ddiphonefield-loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.ddiphonefield-loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 16px;
+    height: 16px;
+    margin: -8px 0 0 -8px;
+    border: 2px solid #ddd;
+    border-top-color: #007cba;
+    border-radius: 50%;
+    animation: ddiphonefield-spin 1s linear infinite;
+}
+
+@keyframes ddiphonefield-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Error states */
+.ddiphonefield-container.error {
+    border-color: #dc3545;
+}
+
+.ddiphonefield-container.error:focus-within {
+    border-color: #dc3545;
+    box-shadow: 0 0 0 1px #dc3545;
+}
+
+/* Accessibility */
+.ddiphonefield-sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Focus indicators */
+.ddiphonefield-country-selector:focus,
+.ddiphonefield-dropdown-item:focus {
+    outline: 2px solid #007cba;
+    outline-offset: -2px;
+}
+
+/* Animation for dropdown */
+.ddiphonefield-dropdown {
+    animation: ddiphonefield-slideDown 0.2s ease-out;
+}
+
+@keyframes ddiphonefield-slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

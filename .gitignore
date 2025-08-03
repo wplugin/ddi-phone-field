@@ -1,0 +1,88 @@
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/backup-*/
+wp-content/updraft*/
+wp-content/backupwordpress-*/
+wp-content/managewp/backups/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Composer
+vendor/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.atom/
+.brackets.json
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Build files
+*.map
+*.min.js
+*.min.css
+build/
+dist/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.staging
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# Backup files  
+*.bak
+*.backup
+*~
+
+# Cache files
+*.cache
+.cache/
+
+# Package files
+package-lock.json
+yarn.lock
+composer.lock
+
+# Development files
+.htaccess
+error_log
+
+# Plugin specific
+assets/js/*.map
+
+# Language files (only keep .pot template)
+languages/*.mo
